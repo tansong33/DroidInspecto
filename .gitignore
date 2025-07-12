@@ -1,15 +1,49 @@
+# IDE
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+.idea/
+.idea/caches
+.idea/libraries
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# Gradle
+.gradle/
 local.properties
+/local.properties
+.cxx
+.cxx/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+.Spotlight-V100
+.Trashes
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# Build outputs
+*.apk
+*.ap_
+*.aab
+*.mapping
+*.hprof
+captures/
+
+# Lint
+lint/intermediates/
+lint/generated/
+
+# Test/coverage
+test-output/
+*.ec
+*.exec
+
+# Logs
+*.log
